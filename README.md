@@ -6,7 +6,7 @@ This repository contains a bare-bone implementation of denoising diffusion [1,2]
 
 Code is organized under src folder as follows:
 
-* *funct_diffusion.py* - Contains all necessary functions for forward and backward diffusion process, including the scheduler
+* *funct_diffusion.py* - Contains all necessary functions for forward and backward diffusion process, including the scheduler.
   
 * *cls_dataset.py* - Contains data-related functions and classes. I used a single class (n01443537 - Carassius auratus - Goldfish) with some augmentations (e.g., rotations and flips), that's why generated images have several upside down fishes.
 
