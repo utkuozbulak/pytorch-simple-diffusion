@@ -33,8 +33,9 @@ if __name__ == "__main__":
     channels = 3
     image_size = 64
     batch_size = 64
-    selected_class = 0
+
     # Get data loder from cls_dataset
+    selected_class = 0
     data_loader = get_tiny_imagenet_data_loader(image_size,
                                                 batch_size,
                                                 selected_class)

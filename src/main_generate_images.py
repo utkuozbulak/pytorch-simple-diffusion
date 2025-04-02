@@ -54,7 +54,7 @@ def save_images_side_by_side(images, save_path, gap=5, gap_color=(0, 0, 0)):
 if __name__ == "__main__":
     torch.manual_seed(99)
     # Output saving parameters
-    output_folder = Path("../results/")
+    output_folder = Path("../out/")
     output_folder.mkdir(exist_ok=True)
 
     # Diffusion parameters
