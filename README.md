@@ -38,6 +38,15 @@ Example diffusion process:
 
 As you can see, generated images are not as crisp as those from the dataset. There are many improvements that can be incorporated to improve the image quality, with each of those adding more to the complexity. [Phil Wang's diffusion repository](https://github.com/lucidrains/denoising-diffusion-pytorch/tree/main) is a great place to discover some of those methods.
 
+## Requirements:
+```
+torch
+torchvision
+datasets
+PIL
+numpy
+```
+
 ## References
 
 [1] Song and Ermon, *Generative Modeling by Estimating Gradients of the Data Distribution*
