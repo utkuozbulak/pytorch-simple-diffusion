@@ -12,7 +12,7 @@ Code is organized under src folder as follows:
 
 * *cls_model.py* - Contains the model. The model in this repo is basically a copy paste of [The Annotated Diffusion](https://huggingface.co/blog/annotated-diffusion)'s implementation, except for dim_mults=(1, 2, 4, 8) and channe=3 (RGB).
 
-* *main_generate_images.py - I wanted to separate training and generation into two different files to digest what parameter is needed for what. This file is used to train the diffusion model.
+* *main_generate_images.py* - I wanted to separate training and generation into two different files to digest what parameter is needed for what. This file is used to train the diffusion model.
 
 * *main_generate_images.py* - Generates images using the trained model.
 
